@@ -31,11 +31,11 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
 
-      - name: npm install
+      - name: Install dependencies Node
         run: npm install
 
-      - name: npm run production
-        run: npm run production
+      - name: Build dependencies
+        run: npm run build
 
 #      - name: 📂 Sync files
 #        uses: SamKirkland/FTP-Deploy-Action@4.0.0
