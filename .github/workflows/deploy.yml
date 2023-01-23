@@ -2,7 +2,7 @@ name: 🚀 Deploy website on push (Master)
 
 on:
   push:
-    branches: [ "master" , "feature/9-ajustar-pipeline-para-deploy"]
+    branches: [ "master" ]
 
 jobs:
   web-deploy:
